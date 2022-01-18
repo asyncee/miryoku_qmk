@@ -5,6 +5,6 @@ tangle:
 	rm -rf tangled
 
 compile:
-	qmk compile -c -kb crkbd -km manna-harbour_miryoku -e MIRYOKU_ALPHAS=QWERTY -e MIRYOKU_CLIPBOARD=MAC -e FORCE_LAYOUT=split_3x6_3
+	qmk compile -c -kb crkbd -km manna-harbour_miryoku -e MIRYOKU_ALPHAS=QWERTY -e MIRYOKU_NAV=VI -e MIRYOKU_CLIPBOARD=MAC -e FORCE_LAYOUT=split_3x6_3
 
 all: tangle compile
