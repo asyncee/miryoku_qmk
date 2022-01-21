@@ -109,7 +109,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 | RESET  |        |        |        |        |        |        |        |        | RESET  |
 | LCTL   | LALT   | LGUI   | LSFT   |        |        | LSFT   | LGUI   | LALT   | LCTL   |
 | BUTTON | ALGR   |        |        |        |        |        |        | ALGR   | BUTTON |
-| U_NP   | U_NP   | MEDIA  | NAV    | MOUSE  | SYM    | NUM    | FUN    | U_NP   | U_NP   |
+| U_NP   | U_NP   |        | NAV    | MOUSE  | SYM    | NUM    | FUN    | U_NP   | U_NP   |
 
 
 *** Nav
@@ -285,7 +285,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 
 #+NAME: nav-r-vi
 | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
-| LEFT  | DOWN  | UP    | RGHT  | CAPS  |
+| LEFT  | DOWN  | UP    | RGHT  |       |
 | HOME  | PGDN  | PGUP  | END   | INS   |
 | ENT   | BSPC  | DEL   | U_NP  | U_NP  |
 
