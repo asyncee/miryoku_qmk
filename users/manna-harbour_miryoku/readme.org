@@ -285,7 +285,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 
 #+NAME: nav-r-vi
 | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
-| LEFT  | DOWN  | UP    | RGHT  |       |
+| LEFT  | DOWN  | UP    | RGHT  | CAPS  |
 | HOME  | PGDN  | PGUP  | END   | INS   |
 | ENT   | BSPC  | DEL   | U_NP  | U_NP  |
 
