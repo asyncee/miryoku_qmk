@@ -143,8 +143,8 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 
 #+NAME: media-r
 | RGB_TOG  | RGB_MOD  | RGB_HUI  | RGB_SAI  | RGB_VAI  |
-| OUT_AUTO | MPRV     | VOLD     | VOLU     | MNXT     |
-| U_BTCLR  | U_BTSEL0 | U_BTSEL1 | U_BTSEL2 | U_BTSEL3 |
+|          | MPRV     | VOLD     | VOLU     | MNXT     |
+| RGB_SPI  | RGB_M_P  | RGB_M_B	 | RGB_M_R  | RGB_M_SW |
 | MSTP     | MPLY     | MUTE     | U_NP     | U_NP     |
 
 
@@ -304,7 +304,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 #+NAME: media-r-vi
 | RGB_TOG  | RGB_MOD  | RGB_HUI  | RGB_SAI  | RGB_VAI  |
 | MPRV     | VOLD     | VOLU     | MNXT     | OUT_AUTO |
-| U_BTSEL0 | U_BTSEL1 | U_BTSEL2 | U_BTSEL3 | U_BTCLR  |
+| RGB_SPI  | RGB_M_P  | RGB_M_B	 | RGB_M_R  | RGB_M_SW |
 | MSTP     | MPLY     | MUTE     | U_NP     | U_NP     |
 
 
